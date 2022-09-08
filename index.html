@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Challenge ONE Sprint 01:        
+        Construye un encriptador de texto con Javascript
+    </title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagenes/aluraLogo.png" alt="Logo de Alura con la letra incial a">
+        </div>
+        <div class="headerTexto">
+            <h1>Challenge ONE Sprint 01:</h1>
+            <p>Construye un encriptador de texto con Javascript</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="sectionEncriptar">
+            <textarea class="input-texto"  placeholder="Ingrese el texto a convertir aquí"></textarea>
+            <div class="instrucciones">
+                <p><b>Instrucciones:</b> Solo letras minúsculas, sin acentos ni caracteres especiales.</p>
+            </div>
+            <div class="botones">
+                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="sectionEncriptado">
+            <textarea class="mensaje"></textarea>
+            <h2 class="aviso">Mensaje convertido</h2>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+    <footer>
+        <p>Challenge ONE Sprint 01: Construye un encriptador de texto con Javascript | BianCortes.com</p>
+    </footer>
+
+</body>
+
+</html> 
